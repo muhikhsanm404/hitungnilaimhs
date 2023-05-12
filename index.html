@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TUGAS 1 PEMROGRAMAN WEB</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <body>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-sm rounded text-light"
+              style="background-color: #212529"
+            >
+              <form action="hasil.php" method="post">
+                <div class="text-center">
+                  <h2 class="text-light">
+                    TOOLS NILAI <br />
+                    MAHASISWA UNISBA TI P2K 2021
+                  </h2  >
+                  <p>Silahkan Inputkan Data Mahasiswa!</p>
+                </div>
+
+                <div class="mb-3">
+                  <label for="username" class="form-label"
+                    >Nama Mahasiswa</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="username"
+                    name="nama"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="nim" class="form-label">NIM</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nim"
+                    name="nim"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="prodi" class="form-label">Program Studi</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="prodi"
+                    name="prodi"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="dosen" class="form-label">Dosen Pengampu</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="dosen"
+                    name="dosen"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="matkul" class="form-label">Mata Kuliah</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="matkul"
+                    name="matkul"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="tugas" class="form-label">Nilai Tugas</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="tugas"
+                    name="tugas"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="absen" class="form-label">Nilai Absen</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="absen"
+                    name="absen"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="uas" class="form-label">Nilai UAS</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="uas"
+                    name="uas"
+                    required
+                  />
+                </div>
+                <div align="center">
+                    <button type="submit" class="btn btn-success" name="hitung">
+                      Hitung
+                    </button>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+  </head>
+</html>
+
